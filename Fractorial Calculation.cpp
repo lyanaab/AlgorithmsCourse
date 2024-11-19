@@ -21,7 +21,7 @@ int main()
 {
 	int number;
 	std::cout << "Enter a non-negative integer: ";
-	std::cin >> number;w
+	std::cin >> number;
 	int result = factorial(number);
 	if (result != -1) {
 		std:: cout << "The factorial of " << number << " is " << result << "\n";
